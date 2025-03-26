@@ -4,7 +4,7 @@ if (answer_how_calculate == '1') :
     print(calculate, "결과는",  eval(calculate))
 elif (answer_how_calculate == '2') :
     first_num = int(input("첫 번째 숫자를 입력해주세요 : "))
-    second_num = int(input("첫 번째 숫자를 입력해주세요 : "))
+    second_num = int(input("두 번째 숫자를 입력해주세요 : "))
     result = 0
     for I in range (first_num, second_num+1):
         result = I + result
