@@ -1,4 +1,3 @@
-coffee = 0
 coffee = int(input("어떤 커피 드릴까요?  (1:보통, 2:설탕, 3:블랙) : "))
 
 print()

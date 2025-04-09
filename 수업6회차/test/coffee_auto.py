@@ -1,15 +1,13 @@
-coffee = 0
-
 def coffee_machine (button):
     print()
     print("#1. 뜨거운 물을 준비한다.")
     print("#2. 종이컵을 준비한다.")
 
-    if (coffee == 1) :
+    if (button == 1) :
         print("#3. 보통커피를 탄다.")
-    elif (coffee == 2) :
+    elif (button == 2) :
         print("#3. 설탕커피를 탄다.")
-    elif (coffee == 3) :
+    elif (button == 3) :
         print("#3. 블랙커피를 탄다.")
     else :
         print("#3. 아무거나 탄다.")
