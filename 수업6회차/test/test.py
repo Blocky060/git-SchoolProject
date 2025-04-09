@@ -27,4 +27,12 @@ make_order("아메리카노", 2)
 make_order("카페라떼", 4)
 print(order_detail)                                                                                                                                                                                                                                                                                                                                                                                                                                               
 
+a = 20
+def test ():
+    global a
+    a = 10
+    print(a)
+test()
+print (a)
+
 #빈칸채우기, 결과예상, 코드체우기 등 / 12시 10분
