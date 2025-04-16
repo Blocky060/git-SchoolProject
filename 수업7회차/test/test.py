@@ -24,3 +24,9 @@ for i in range(6) :
     print("%d " %lotto[i],end = '')
 
 
+from calcpkg.geometry import*
+from calcpkg.operation import*
+print("\n")
+print(plus(1, 3))
+print(minus(3, 5))
+print(square(6, 8))
