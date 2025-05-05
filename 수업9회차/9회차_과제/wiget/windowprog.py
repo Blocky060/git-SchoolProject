@@ -45,5 +45,4 @@ title.place(x = 325, y = 10)
 
 pLabel.place(x=15, y = 50)
 
-
 window.mainloop()
