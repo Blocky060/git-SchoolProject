@@ -1,4 +1,4 @@
-#매게변수 암기
+#매게변수 암기, rb, wb ,43pg
 import os
 inFp = None
 fName, inList, inStr = "", [], ""
