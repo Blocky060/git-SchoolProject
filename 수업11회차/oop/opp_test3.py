@@ -44,7 +44,7 @@ truck1.up_speed(200)
 
 print(sedna1.speed)
 print(truck1.speed)
-
+#super함수
 
 
 
