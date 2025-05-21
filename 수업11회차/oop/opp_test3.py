@@ -22,4 +22,30 @@ class car :   #현실세계의 사물을 컴퓨터 안에서 구현할려고 고
 mycar1 = car('red', 20)
 print(mycar1.color, mycar1.get_speed(), mycar1.get_name(), car.count)
 mycar2 = car('blue', 70)
-print(mycar2.color, mycar2.get_speed(), mycar2.get_name(), car.count)
+print(mycar2.color, mycar2.get_speed(), mycar2.get_name(), car.count) #mycar2.count도 사용 가능
+car.print_message()
+
+#메서드 오브라이딩(재정의)
+#통된 내용을 상위클래스에 두고 상속을 받음으로서 일관되고 효울적인 프로그래밍이 가능하다. 여기서 상위클래스 = 부모클래스, 상위클래스/ 하위클래스 = 서브클래스, 자식클래스
+class Sedan(car) :
+    def up_speed(self, value):
+        self.speed += value
+        if (self.speed >= 150) :
+            self.speed = 150
+class Trunk(car):
+    pass
+
+
+sedna1 = Sedan('red', 0)
+truck1 = Trunk('blue', 0)
+
+sedna1.up_speed(200)
+truck1.up_speed(200)
+
+print(sedna1.speed)
+print(truck1.speed)
+
+
+
+
+
